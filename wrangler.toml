@@ -1,4 +1,4 @@
-name = "remix-cloudflare-workers-template"
+name = "ripple"
 
 main = "./server.ts"
 workers_dev = true
@@ -9,4 +9,4 @@ compatibility_date = "2023-04-20"
 bucket = "./build/client"
 
 [build]
-command = "npm run build"
+command = "pnpm run build"
